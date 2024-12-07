@@ -1,0 +1,1 @@
+This repository demonstrates a subtle error in assembly code where an argument is modified directly on the stack, but the updated value is not returned correctly. This leads to unexpected results, as the calling function might not receive the updated value. The solution illustrates how to properly return values from assembly functions using registers.
